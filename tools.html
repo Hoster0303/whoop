@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="tools.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whoop</title>
+</head>
+<body>
+    <div id="sidebar" style="position: fixed; top: 0; left: 0; height: 100vh;">
+        <div class="top">
+            <div class="logo"><img src="img/logo.png" style="width: 50px; height: 50px;" alt=""></div>
+            <i class="fa-solid fa-angles-left" style="color: #fff; cursor: pointer;" id="toggle-btn"></i>
+        </div>
+        <div id="links">
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="tools.html">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <span>Tools</span>
+            </a>
+            <a href="success.html">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Success Stories</span>
+            </a>
+            <a href="Videos.html">
+                <i class="fa-solid fa-video"></i>
+                <span>Videos</span>
+            </a>
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>About</span>
+            </a>
+        </div>
+        <a href="https://shop.whoop.com/en-us/index.html" target="_blank">
+            <button style="cursor: pointer;" class="join">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span>Join Now</span>
+            </button>
+        </a>
+    </div>
+    <div class="content">
+        <!-- Title Section -->
+        <div class="tools-title">
+            <h1><i class="fas fa-tools"></i> Tools</h1>
+        </div>
+
+        <!-- Recovery Tracking Section -->
+        <section class="feature-box" id="recovery-tracking">
+            <h2><i class="fas fa-heartbeat"></i> Recovery Tracking</h2>
+            <p>Our advanced watch technology provides comprehensive insights into your body's recovery process. By analyzing key metrics such as Heart Rate Variability (HRV), Resting Heart Rate (RHR), and Respiratory Rate, it helps you understand how well your body is recuperating from daily stress and workouts. This data empowers you to make informed decisions about your training and rest, ensuring optimal performance and health.</p>
+            <ul>
+                <li><i class="fas fa-chart-line"></i> Heart Rate Variability (HRV)</li>
+                <li><i class="fas fa-heart"></i> Resting Heart Rate (RHR)</li>
+                <li><i class="fas fa-lungs"></i> Respiratory Rate</li>
+            </ul>
+        </section>
+
+        <!-- Strain Monitoring Section -->
+        <section class="feature-box" id="strain-monitoring">
+            <h2><i class="fas fa-running"></i> Strain Monitoring</h2>
+            <p>Our watch continuously measures your cardiovascular load throughout the day, providing valuable insights to optimize your training regimen. By tracking metrics such as Daily Exertion Score, Training Load, and Cardiovascular Strain, it helps you balance your workouts and recovery, ensuring you train effectively without overexertion. This feature is essential for athletes and fitness enthusiasts aiming to maximize performance and minimize injury risk.</p>
+            <ul>
+                <li><i class="fas fa-tachometer-alt"></i> Daily Exertion Score</li>
+                <li><i class="fas fa-dumbbell"></i> Training Load</li>
+                <li><i class="fas fa-heartbeat"></i> Cardiovascular Strain</li>
+            </ul>
+        </section>
+
+        <!-- Sleep Optimization Section -->
+        <section class="feature-box" id="sleep-optimization">
+            <h2><i class="fas fa-bed"></i> Sleep Optimization</h2>
+            <p>Our watch tracks your sleep cycles and disturbances to help you achieve better sleep quality. By monitoring Sleep Stages (Deep, Light, REM), Sleep Efficiency, and Sleep Disturbances, it provides insights into your sleep patterns. This information allows you to make adjustments to your sleep environment and habits, promoting restful and rejuvenating sleep.</p>
+            <ul>
+                <li><i class="fas fa-moon"></i> Sleep Stages (Deep, Light, REM)</li>
+                <li><i class="fas fa-percentage"></i> Sleep Efficiency</li>
+                <li><i class="fas fa-exclamation-triangle"></i> Sleep Disturbances</li>
+            </ul>
+        </section>
+
+        <!-- Real-Time Coaching Section -->
+        <section class="feature-box" id="real-time-coaching">
+            <h2><i class="fas fa-chalkboard-teacher"></i> Real-Time Coaching</h2>
+            <p>Our watch offers AI-driven insights and recommendations to enhance your performance and recovery. By providing Personalized Health Insights and Training Recommendations, it acts as a virtual coach, guiding you through your fitness journey. Whether you're aiming to improve your endurance, strength, or overall health, this feature ensures you have the right guidance at every step.</p>
+            <ul>
+                <li><i class="fas fa-user-md"></i> Personalized Health Insights</li>
+                <li><i class="fas fa-bullseye"></i> Training Recommendations</li>
+            </ul>
+        </section>
+
+        <!-- 24/7 Heart Rate Monitoring Section -->
+        <section class="feature-box" id="heart-rate-monitoring">
+            <h2><i class="fas fa-heart"></i> 24/7 Heart Rate Monitoring</h2>
+            <p>Our watch continuously tracks your heart rate, providing real-time data and detecting anomalies for better health analysis. By monitoring Heart Rate and HRV Trends, it helps you understand your cardiovascular health and make informed lifestyle choices.</p>
+            <ul>
+                <li><i class="fas fa-heartbeat"></i> Heart Rate</li>
+                <li><i class="fas fa-chart-line"></i> HRV Trends</li>
+            </ul>
+        </section>
+
+        <!-- Calorie & Activity Tracking Section -->
+        <section class="feature-box" id="calorie-activity-tracking">
+            <h2><i class="fas fa-burn"></i> Calorie & Activity Tracking</h2>
+            <p>Our watch estimates calories burned and monitors your movement to provide accurate fitness tracking. By analyzing Active Calories Burned and Movement Intensity, it helps you maintain a balanced lifestyle and achieve your fitness goals.</p>
+            <ul>
+                <li><i class="fas fa-fire"></i> Active Calories Burned</li>
+                <li><i class="fas fa-walking"></i> Movement Intensity</li>
+            </ul>
+        </section>
+
+        <!-- Skin Temperature Monitoring Section -->
+        <section class="feature-box" id="skin-temperature-monitoring">
+            <h2><i class="fas fa-thermometer-half"></i> Skin Temperature Monitoring</h2>
+            <p>Our watch monitors body temperature trends to detect early signs of illness or fatigue. By tracking Skin Temperature Variations, it provides valuable insights into your health status, allowing you to take proactive measures.</p>
+            <ul>
+                <li><i class="fas fa-temperature-high"></i> Skin Temperature Variations</li>
+            </ul>
+        </section>
+
+        <!-- Blood Oxygen Level (SpO2) Section -->
+        <section class="feature-box" id="blood-oxygen-level">
+            <h2><i class="fas fa-lungs"></i> Blood Oxygen Level (SpO2)</h2>
+            <p>Our watch helps assess oxygen saturation and overall respiratory health. By monitoring Blood Oxygen Percentage, it provides critical insights into your body's oxygen utilization, supporting your health and wellness journey.</p>
+            <ul>
+                <li><i class="fas fa-tint"></i> Blood Oxygen Percentage</li>
+            </ul>
+        </section>
+
+        <!-- No Screen, Always-On Wear Section -->
+        <section class="feature-box" id="no-screen-always-on" style="margin-bottom: 100px;">
+            <h2><i class="fas fa-eye-slash"></i> No Screen, Always-On Wear</h2>
+            <p>Our watch features a minimalist design that encourages distraction-free health tracking. With its always-on wearability, you can focus on your activities without interruptions, while still benefiting from continuous health monitoring.</p>
+        </section>
+    </div>
+
+    <!-- Javascript File Linked -->
+    <script src="script.js"></script>
+</body>
+</html>
